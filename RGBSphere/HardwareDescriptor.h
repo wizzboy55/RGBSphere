@@ -1,0 +1,24 @@
+/*
+ * HardwareDescriptor.h
+ *
+ * Created: 2020-11-29 3:40:10 PM
+ *  Author: charl
+ */ 
+
+
+#ifndef HARDWAREDESCRIPTOR_H_
+#define HARDWAREDESCRIPTOR_H_
+
+#define GPIO_PORT_LED_RED	PORTA
+#define GPIO_PIN_LED_RED	6
+#define GPIO_PORT_LED_GREEN	PORTA
+#define GPIO_PIN_LED_GREEN	2
+#define GPIO_PORT_LED_BLUE	PORTA
+#define GPIO_PIN_LED_BLUE	3
+#define GPIO_PORT_LED_WHITE	PORTA
+#define GPIO_PIN_LED_WHITE	7
+
+#define GPIO_PORT_IR_INPUT	PORTA
+#define GPIO_PIN_IR_INPUT	1
+
+#endif /* HARDWAREDESCRIPTOR_H_ */
